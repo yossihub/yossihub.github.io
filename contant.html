@@ -1,0 +1,51 @@
+<html>
+<head lang="he">
+	<meta charset="utf-8"/>
+	<title> יצירת קשר </title>
+	<link rel="stylesheet" href="font/css/all.min.css"> 
+	<link href="cssweb.css" rel="stylesheet" type="text/css"/>
+	<script type="text/javascript" src="jaco.js"></script>
+<head>
+<body class="bodycon"> 
+	<header>
+		<h1 class="h1con"> יצירת קשר </h1> <br>
+		<span class="spancon"> אם סיימתם שלחו את הטופס ואקרא אותה בימים הבאים </span><br> <br>
+	</header>
+<form action="contant.php" method="post">
+	<div class="maincon">
+		<div class="frame">
+			<input type="text" placeholder="Your name:" class="input-con" name="name" id="chackcon" required> <br> <br>
+			<input type="Subject" placeholder="Subject:" class="input-con" name="subject"> 
+			<div class="divtext"><textarea placeholder="Insert a message: " name="textt" id="chackcon" autofocus></textarea> </div>
+			<input onclick="chack()" class="descon" type="submit" value="Send"> 
+			<input class="rescon" type="reset" value="Reset"> <br>
+		</div>
+	</div>
+</form>
+</body>
+<!--h1> או שתשלחו לי מייל ישירות </h1> <br>
+<form action="mailto:tck945@gmail@.com" method="post" enctype="text/plain">
+	<input type="text" id="sem"> :Name<br>
+	<input type="text" id="sem"> :E-mail<br>
+	<input type="text" size="50" id="sem"> :Comment<br><br>
+	<input type="submit" onclick="sendmail()" value="Send">
+	<input type="reset" value="Reset">
+</form>
+</body>
+<body>
+	<br> <br> <p> אלו הם הפרטים שלי: </p>
+	<p class="artext">
+	השם שלי: יוסי שחב <br>
+	האימייל שלי: tck945@gmail.com
+	</p>
+</body-->
+<div class="mapouter">
+	<div class="gmap_canvas">
+	<h2 class="h2map"> משרדי החברה נמצאים כאן </h2>
+		<iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=israel%20holon&t=&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net">fmovie.org</a>
+		<br>
+		<style>.mapouter{position:relative;text-align:center;height:300px;width:500px;}</style>
+		<style>.gmap_canvas {border:3px solid yellow; border-radius:45px; overflow:hidden;background:none;height:300px;width:500px; margin:400px 450px;}</style>
+	</div>
+</div>
+</html>
