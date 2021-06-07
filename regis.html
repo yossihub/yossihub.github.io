@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="font/css/all.min.css"> 
+	<link href="cssweb.css" rel="stylesheet" type="text/css"/>
+	<title> הרשמה לאתר </title>
+</head>
+<body class="body-photo">
+<div dir="rtl" class="photo">
+	<img src="ban.png" >
+	<h1 class="write"> PoolSwimsuit </h1>
+</div> <br> <br> <br> <br> <br>
+<fieldset class="backtoregis">
+	<legend class="lege-regis"> הירשם מכאן </legend>
+	<form action="regis.php" method="post" class="formtoregis">
+		<div class="icon-fas">
+			<i class="fas fa-user"></i>
+			Username: <input type="text" name="username" class="input-regis" placeholder="Username" required autofocus> </input>
+		</div> <br>
+		<div class="icon-fas">
+			<i class="fas fa-portrait"></i>
+			LastName: <input type="text" name="LastName" class="input-regis" placeholder="LastName" required> </input>
+		</div> <br>
+		<div class="icon-fas">
+			<i class="fas fa-key"></i>
+			Password: <input type="password" name="password" class="input-regis" placeholder="Password" required> </input>
+		</div> <br>
+		<div class="icon-fas">
+			<i class="fas fa-calendar-day"></i>
+			age: <input type="number" name="age" class="input-regis" placeholder="age" required> </input>
+		</div> <br>
+		<div class="icon-fas">
+			<i class="fas fa-envelope-square"></i>
+			Email: <input type="email" name="email" placeholder="Email" class="input-regis" required>
+		</div>
+		<input type="submit" value="הירשם" class="send-text-regis" id="test">
+		<input type="reset" value="אפס טופס" class="reset-form-regis">
+	</form>
+</fieldset>
+</body>
+</html>
