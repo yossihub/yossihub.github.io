@@ -1,0 +1,40 @@
+.a1web{
+	margin:-10px 600px;
+	text-decoration:none;
+	color:black;
+	background:white;
+	border:2px solid red;
+	border-radius:60px;
+	position:absolute;
+	font-family:fantasy;
+	font-size:17px;
+	font-weight:bold;
+	width:60px;
+	height:30px;
+}
+.a2web{
+	margin:-10px 670px;	
+	position:absolute;
+	text-decoration:none;
+	color:black;
+	font-size:20px;
+	font-weight:bold;
+	width:60px;
+	height:30px;
+	font-family:fantasy;
+	background:yellow;
+	border:2px solid red;
+	border-radius:60px;
+}
+.bowomb{
+	color:black;
+	background:white;
+	border:3px solid black;
+	border-radius:60px;
+}
+.bowomw{
+	color:white;
+	background:black;
+	border:3px solid yellow;
+	border-radius:60px;
+}
